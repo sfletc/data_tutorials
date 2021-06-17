@@ -1,0 +1,14 @@
+name: tutorial_environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - seaborn
+  - pandas
+  - matplotlib
+  - plotly
+  - pip
+  - pip:
+    - ppscore
+
